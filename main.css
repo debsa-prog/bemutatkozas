@@ -4,3 +4,8 @@
   box-sizing: border-box;
   font-size: 100%;
 }
+
+.profile-card {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+}
