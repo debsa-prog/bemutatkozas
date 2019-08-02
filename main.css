@@ -40,3 +40,9 @@ li {
   font-size: 250%;
   letter-spacing: 10px;
 }
+.head, .about{
+  margin-bottom: 10%;
+}
+.content{
+padding:5% 10%;
+}
