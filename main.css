@@ -1,8 +1,3 @@
-img{
-  width: 120px;
-  height: 120px;
-}
-
 *{
   margin: 0;
   padding: 0;
@@ -26,4 +21,12 @@ body {
 .head, .content{
   margin: 0 auto;
   width: 90%;
+}
+img{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.profile-img {
+  margin-top: -60px;
 }
