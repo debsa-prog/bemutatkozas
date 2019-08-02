@@ -23,3 +23,7 @@ body {
 .head, .links {
   text-align: center;
 }
+.head, .content{
+  margin: 0 auto;
+  width: 90%;
+}
