@@ -30,3 +30,13 @@ img{
 .profile-img {
   margin-top: -60px;
 }
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
+  font-size: 250%;
+  letter-spacing: 10px;
+}
