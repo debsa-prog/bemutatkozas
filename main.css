@@ -14,7 +14,7 @@ body {
 }
 
 .profile-card {
-  width: 380px;
+  width: 340px;
   max-width: calc(100vw-10px);
   background-color: hsla(0, 0%, 100%, .5);
   border-radius: 4px;
@@ -61,7 +61,7 @@ li {
   color: green
 }
 
-#profession, .about {
+#profession, .about, .tel {
   font: 25px 'Josefin Sans', sans-serif;
 }
 
@@ -71,20 +71,18 @@ li {
 #location{
   font-size: 35px;
 }
-.about{
-  color:darkblue
-}
 a {
   text-decoration: none;
-  font-size: 2rem;
+  font-size: 1.9rem;
 }
 .fab{
   font-size: 3rem;
+  margin: 10px;
 }
 a:hover{
   color: crimson;
 }
-
+/* responsiv design */
 @media screen and (min-width:992px){
   .small-screen{
     display: none;
@@ -97,3 +95,6 @@ a:hover{
   }
 }
 
+.about{
+  color:darkblue
+}
