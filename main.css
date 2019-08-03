@@ -45,9 +45,9 @@ ul {
   list-style-type: none;
 }
 
-li {
+li, .fab {
   display: inline;
-  font-size: 250%;
+  font-size: 170%;
   letter-spacing: 10px;
 }
 .head, .about{
@@ -82,4 +82,16 @@ a {
 
 a:hover{
   color: crimson;
+}
+
+@media screen and (min-width:992px){
+  .small-screen{
+    display: none;
+  }
+}
+
+@media screen and (max-width:992px){
+  .large-screen{
+    display: none;
+  }
 }
