@@ -8,13 +8,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 110vh;
   background: url(assets/background.jpg) no-repeat center center fixed;
   background-size: cover;
 }
 
 .profile-card {
-  width: 480px;
+  width: 380px;
   max-width: calc(100vw-10px);
   background-color: hsla(0, 0%, 100%, .5);
   border-radius: 4px;
@@ -76,8 +76,11 @@ li {
 }
 a {
   text-decoration: none;
+  font-size: 2rem;
 }
-
+.fab{
+  font-size: 3rem;
+}
 a:hover{
   color: crimson;
 }
@@ -94,6 +97,3 @@ a:hover{
   }
 }
 
-.fab{
-  font-size: 3em;
-}
