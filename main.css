@@ -45,10 +45,8 @@ ul {
   list-style-type: none;
 }
 
-li, .fab {
+li {
   display: inline;
-  font-size: 170%;
-  letter-spacing: 10px;
 }
 .head, .about{
   margin-bottom: 10%;
@@ -94,4 +92,8 @@ a:hover{
   .large-screen{
     display: none;
   }
+}
+
+.fab{
+  font-size: 3em;
 }
